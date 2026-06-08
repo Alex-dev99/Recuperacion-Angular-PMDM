@@ -1,0 +1,8 @@
+
+<nav class="navbar">
+  <div class="nav-brand">🎬 CineVerse</div>
+  <div class="nav-links">
+    <a routerLink="/movies" *ngIf="isLoggedIn">Peliculas</a>
+    <a routerLink="/login" *ngIf="!isLoggedIn">Iniciar sesion</a>
+  </div>
+</nav>
